@@ -55,6 +55,7 @@ nav {
   align-items: center;
   flex-grow: 1;
   justify-content: right;
+  margin-right: 10px;
 }
 
 .nav-right-links {
@@ -130,8 +131,7 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 5px;
-  
+  /* margin: 5px; */
 }
 
 .user-letter {
@@ -186,6 +186,8 @@ nav {
   flex-direction: column;
   justify-content: center;
   max-width: 584px;
+  width: calc(100% - 300px);
+  min-width: 400px;
 }
 
 .search-box-container {
